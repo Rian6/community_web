@@ -65,7 +65,7 @@ export const Pedido = () => {
         <div className="p-grid">
             <div className="p-col-12">
                 <div className="card p-shadow-4 ">
-                <h4 className="p-mb-2">Cadastro de Pedidos</h4>
+                <h2 className="p-mb-2">Cadastro de Pedidos</h2>
                     <div className="p-col-12 " >
                         <Toolbar className="p-mb-4" left={leftActions} ></Toolbar>
                         <DataTable

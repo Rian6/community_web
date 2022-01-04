@@ -151,7 +151,7 @@ export const ProdutoCadastro = () => {
             <Toast ref={toastTL} position="bottom-center" />
             <div className="p-col-12">
                 <div className="card p-shadow-4">
-                    <h5>Cadastro de Produto</h5>
+                    <h2>Cadastro de Produto</h2>
                     <Fieldset legend="Dados Gerais">
                         <div className="p-grid p-col-8 p-shadow-4"
                             style={{

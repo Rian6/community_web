@@ -25,7 +25,7 @@ export const PessoaCadastro = () => {
         <div className="p-grid">
             <div className="p-col-12">
                 <div className="card p-shadow-4">
-                    <h5>Cadastro de Pessoa</h5>
+                    <h2>Cadastro de Pessoa</h2>
                     <Fieldset legend="Dados Gerais">
                         <div className="p-grid p-col-8" style={{ margin: 10 }}>
                             <span className="p-float-label" style={{ marginRight: 10 }}>

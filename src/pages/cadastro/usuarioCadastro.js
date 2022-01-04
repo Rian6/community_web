@@ -53,7 +53,7 @@ export const UsuarioCadastro = () => {
 
     return (
         <div className="card p-shadow-4">
-            <h5>Novo Usuario</h5>
+            <h2>Novo Usuario</h2>
 
             <h6 style={{ color: cor }}>{frase}</h6>
             <div className="p-formgroup-inline">

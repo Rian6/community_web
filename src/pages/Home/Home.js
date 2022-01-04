@@ -31,6 +31,7 @@ import { ProdutoCadastro } from '../cadastro/produtoCadastro';
 import { PessoaCadastro } from '../cadastro/pessoaCadastro';
 import { PedidoCadastro } from '../pedido/pedidoCadastro';
 import { UsuarioCadastro } from '../cadastro/usuarioCadastro';
+import { FrenteCaixa } from '../pedido/FrenteCaixa';
 
 const Home = () => {
 
@@ -110,6 +111,7 @@ const Home = () => {
             label: 'Pedido', icon: 'pi pi-fw pi-clone',
             items: [
                 { label: 'Pedido', icon: 'pi pi-fw pi-circle-off', to: '/pedido' },
+                { label: 'Caixa', icon: 'pi pi-fw pi-circle-off', to: '/FrenteCaixa' },
             ]
         },
             ];
@@ -173,6 +175,8 @@ const Home = () => {
                 <Route path="/pessoaCadastro" component={PessoaCadastro} />
                 <Route path="/pedidoCadastro" component={PedidoCadastro} />
                 <Route path="/usuario" component={UsuarioCadastro} />
+                <Route path="/FrenteCaixa" component={FrenteCaixa} />
+
             </div>
 
             <AppFooter />

@@ -74,46 +74,62 @@ const UserLogin = () => {
   }
 
   return (
-    <div className="background-login">
-      <div className="user-login card p-shadow-6" >
+    <div className="background-login" style={{
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      backgroundImage: `url("./assets/layout/images/office.png")` }}>
+      <div className="user-login" >
         <img className="user-login__title" src="assets/layout/images/logo-white.png" alt="logo  " />
 
         <form onSubmit={onSubmit}>
-          <div className="user-login__form-control">
-            <label htmlFor="user">Usuário</label>
-            <InputText
-              id="user"
-              name="user"
-              onChange={onChange}
-              value={values.user}
-            />
-          </div>
-          <div className="user-login__form-control">
-            <label htmlFor="password">Senha</label>
 
-            <Password
-              id="password"
-              name="password"
-              onChange={onChange}
-              feedback={false}
-              toggleMask
-              value={values.password}
-            />
+        <div className="p-col-12 p-md-4">
+            <div className="p-inputgroup"  style={{width: 250}}>
+              <span className="p-inputgroup-addon">
+                <i className="pi pi-user"></i>
+              </span>
+              <InputText
+                id="user"
+                name="user"
+                placeholder='Usuario'
+                onChange={onChange}
+                value={values.user}
+              />
+            </div>
           </div>
+
+          <div className="p-col-12 p-md-4">
+            <div className="p-inputgroup" style={{width: 250}}>
+              <span className="p-inputgroup-addon">
+                <i className="pi pi-lock"></i>
+              </span>
+              <Password
+                id="password"
+                name="password"
+                placeholder='Senha'
+                onChange={onChange}
+                feedback={false}
+                toggleMask
+                value={values.password}
+              />
+            </div>
+          </div>
+
           {error && (
-            <div className="user-login__error">{error}</div>
+            <div 
+            style={{margin: 8}}
+            className="user-login__error">{error}</div>
           )}
           
           <Button
+          className='p-button-raised p-button-secondary'
             style={{ 
-              marginTop: 10, 
-              fontWeight:'bold', 
-              color:'white', 
-              borderWidth:0 ,
-              backgroundColor:'#1985a1' }}
+              margin: 8, 
+              fontWeight:'bold', }}
             type="submit"
           >
-            Entrar
+            Fazer Login
           </Button>
         </form>
       </div>

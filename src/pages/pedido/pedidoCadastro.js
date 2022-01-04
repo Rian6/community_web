@@ -157,7 +157,7 @@ export const PedidoCadastro = () => {
             </Dialog>
             <Toast ref={toastTL} position="bottom-center" />
             <div className="card p-shadow-4 " style={{ marginRight: 10, width: 700 }}>
-                <h5>Pedido</h5>
+                <h2>Pedido</h2>
                 <div className="p-grid" style={{ margin: 10 }}>
                     <Button
                         className="p-button-raised p-button-info"

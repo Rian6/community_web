@@ -10,6 +10,12 @@ export const getAllProdutos = async () => {
     }
 }
 
+export const buscarPorCodigo = async (produto) => {
+    let produtosTemp = await SET("produto/buscarPorCodigo", produto)
+
+    return produtosTemp
+}
+
 export const saveProduto = async (produto) => {
     console.log(produto)
     let produtoTemp = await SET("produto/salvar", produto)

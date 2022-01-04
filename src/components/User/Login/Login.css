@@ -10,7 +10,7 @@
   float:right;
   border-radius: 5px;
   padding: 22px;
-  background-color: #00509d;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .user-login__title {

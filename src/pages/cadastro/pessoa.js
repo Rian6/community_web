@@ -97,7 +97,7 @@ export const Pessoa = () => {
         <div className="p-grid">
             <div className="p-col-12">
                 <div className="card p-shadow-4">
-                <h4>Cadastro de Pessoa</h4>
+                <h2>Cadastro de Pessoa</h2>
                     <div className="p-col-12 " >
 
                         <Toolbar className="p-mb-4" left={leftActions} ></Toolbar>
