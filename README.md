@@ -6,6 +6,14 @@ Versão web front do projeto community
 
 Esse trabalho se divide em 3 projetos em plataformas diferentes com dependencia em um servidor, certifique-se de ter todas as plataformas de desenvolvimento instaladas antes de rodar qualquer tentativa, consulte Pré-requisitos.
 
+Repositorios do projeto community:
+
+[WEB](https://github.com/community_web)
+
+[MOBILE](https://github.com/community_mobile)
+
+[SERVIDOR](https://github.com/community_server)
+
 ### 📋 Pré-requisitos
 
 Você precisa de todas as plataformas de desenvolvimento antes de rodar qualquer um dos 3 projetos:
