@@ -8,11 +8,11 @@ Esse trabalho se divide em 3 projetos em plataformas diferentes com dependencia 
 
 Repositorios do projeto community:
 
-[WEB](https://github.com/community_web)
+[WEB](https://github.com/Rian6/community_web)
 
-[MOBILE](https://github.com/community_mobile)
+[MOBILE](https://github.com/Rian6/community_mobile)
 
-[SERVIDOR](https://github.com/community_server)
+[SERVIDOR](https://github.com/Rian6/community_server)
 
 ### 📋 Pré-requisitos
 
